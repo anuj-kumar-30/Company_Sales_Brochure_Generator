@@ -50,8 +50,8 @@ class ModelsAPI:
     
 obj1 = ModelsAPI()
 messages = [
-    {'role':'system', 'content':'You are a snarky assistant'},
-    {'role':'user', 'content':"Tell me a joke."}
+    {'role':'system', 'content':'You are a very good doodle artist.'},
+    {'role':'user', 'content':"Create a sample doodle for me just generate the image i don't need discription"}
 ]
 print(f"SambaNova Model Response:\n{obj1.sambanovaModel(messages)}\n\n")
 print(f"Google Model Response:\n{obj1.googleModel(messages)}\n\n")
